@@ -25,11 +25,11 @@ I preferred blue/green deployment strategy, as it reduces downtime by running tw
 
 These are two pipelines I have created
 
-- [cluster formation](https://github.com/ph4n666/cluster-formation-) - creates a Kubernetes cluster using eksctl and updates the Jenkins server with the respective config file.
+- [cluster formation](https://github.com/keerthi457/jenkins-to-create-eks) - creates a Kubernetes cluster using eksctl and updates the Jenkins server with the respective config file.
 
 ![img-1](images/createcluster.png)
 
-- [Jenkins Pipeline](https://github.com/ph4n666/jenkins-pipeline)(This is the project)
+- [Jenkins Pipeline](https://github.com/keerthi457/goapp-web-server)(This is the project)
 
 ![img-2](images/pipeline.png)
 
