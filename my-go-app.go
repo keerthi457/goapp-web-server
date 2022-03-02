@@ -10,7 +10,7 @@ import (
 
 var calls int64
 func HelloWorld(w http.ResponseWriter, r *http.Request) {
-      for calls <10{
+      for calls <100{
         count := atomic.AddInt64(&calls, 1)
         fmt.Fprintf(w, "You've called me %d times", count)
         file, err := os.OpenFile("logs.txt", os.O_APPEND|os.O_CREATE|os.O_WRONLY, 0666)
