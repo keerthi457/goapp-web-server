@@ -14,8 +14,8 @@ ADD . /app
 WORKDIR /app
 ## we run go build to compile the binary
 ## executable of our Go program
-RUN go build -o even .
+RUN go build -o my-go-app .
 ## Our start command which kicks off
 ## our newly created binary executable
 ##docker run -p 8080:8081 -it my-go-app
-CMD ["/app/even"]
+CMD ["/app/my-go-app"]
